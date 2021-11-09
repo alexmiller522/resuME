@@ -1,0 +1,84 @@
+﻿body {
+    background-color: #adcbee;
+}
+.Base {
+    background-color: #5966e0;
+    float: left;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+Tab {
+    background-color: white;
+    font-family: 'Bookman Old Style';
+}
+.Tab a{
+font-family:'Bookman Old Style';
+}
+.CurrentTab {
+    background-color: white;
+}
+.ProfilePic {
+    text-align: center;
+    display:block;
+    padding:10px;
+    height:50%;
+}
+
+.ProfilePic img{
+    padding:5px;
+    border-radius:50%;
+    border:solid;
+    border-color:white;
+    width:75%;
+}
+
+    .ProfilePic h2 {
+        color: #fffdd0;
+        font-family: Calibri;
+    }
+
+.Links {
+    display: flex;
+    flex-direction:column;
+    height:50%;
+}
+
+    .Links a {
+        border-top: solid;
+        border-color: #F4BA70;
+        color: maroon;
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Bookman Old Style';
+        font-size: 20px;
+        height: 25%;
+        padding-top: 9%;
+    }
+
+a:hover{
+    background-color:white;
+}
+
+.Tab {
+    width:75%;
+    float:right;
+}
+.Tab h1{
+    font-family: 'Calibri';
+    text-align:center;
+}
+.Tab p {
+    font-size: 22px;
+    font-family: Calibri;
+    padding-left:25px;
+}
+
+.Tab a{
+    padding-left:25px;
+    font-family: Calibri;
+    font-size: 25px;
+    color: maroon;
+    font-style:italic;
+}

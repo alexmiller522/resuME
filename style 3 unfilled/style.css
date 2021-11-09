@@ -1,0 +1,66 @@
+.floatRightClear{
+    float:right;
+    clear:right;
+    margin-left:20px
+}
+
+img {
+
+    width: 70%; 
+    height: auto;
+    float:right;
+    clear:right;
+    margin-left:20px;
+    margin-right:50px;
+    filter: grayscale(100%);
+    margin-top: -260px;
+
+}
+
+
+.p{
+  color: red;
+}
+
+.headings{
+  position: static;
+  margin-left: 220px;
+  font-family: sans-serif;
+  font: Verdana;
+}
+
+
+.row {
+  display: flex;
+  top: 80px;
+  right: 0;
+  margin-left: 220px;
+  width: 600px;
+  height: 100px;
+}
+
+.column {
+  position: flex;
+  flex: 50%;
+
+}
+
+.vertical-menu {
+  margin-top: 100px;
+  width: 100px; /* Set a width if you like */
+}
+ 
+
+.vertical-menu a {
+  background-color: white; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 14px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  margin-left: 50px;
+}
+
+.vertical-menu a:hover {
+  color: dimgrey;
+}
+
