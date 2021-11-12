@@ -1,4 +1,4 @@
-# resuME
+# resuME 📄 💻
 
 
 # Table of Contents
