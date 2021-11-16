@@ -18,13 +18,14 @@ img {
 }
 
 
+
 .p{
   color: red;
 }
 
 .headings{
-  position: static;
-  margin-left: 220px;
+  position: relative;
+  margin-left: 25%;
   font-family: sans-serif;
   font: Verdana;
 }
@@ -34,14 +35,16 @@ img {
   display: flex;
   top: 80px;
   right: 0;
-  margin-left: 220px;
-  width: 600px;
-  height: 100px;
+  margin-left: 24%;
+  max-width: 70%;
+  width: 100%;
+  height: 100%;
 }
 
-.column {
+.column  {
   position: flex;
   flex: 50%;
+  width: 100%;
 
 }
 
@@ -58,6 +61,7 @@ img {
   padding: 14px; /* Add some padding */
   text-decoration: none; /* Remove underline from links */
   margin-left: 50px;
+  min-width: 50px;
 }
 
 .vertical-menu a:hover {
