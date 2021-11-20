@@ -9,22 +9,6 @@
     flex-direction: column;
     height: 100vh;
 }
-Tab {
-    background-color: white;
-    font-family: 'Bookman Old Style';
-}
-.Tab a{
-font-family:'Bookman Old Style';
-}
-.CurrentTab {
-    background-color: white;
-}
-.ProfilePic {
-    text-align: center;
-    display:block;
-    padding:10px;
-    height:50%;
-}
 
 .ProfilePic img{
     padding:5px;
@@ -33,11 +17,6 @@ font-family:'Bookman Old Style';
     border-color:white;
     width:75%;
 }
-
-    .ProfilePic h2 {
-        color: #fffdd0;
-        font-family: Calibri;
-    }
 
 .Links {
     display: flex;
@@ -57,9 +36,10 @@ font-family:'Bookman Old Style';
         padding-top: 9%;
     }
 
-a:hover{
-    background-color:white;
+.CurrentTab {
+        background-color: white;
 }
+
 
 .Tab {
     width:75%;
@@ -81,4 +61,16 @@ a:hover{
     font-size: 25px;
     color: maroon;
     font-style:italic;
+}
+
+
+p r {
+    float:right;
+    padding-right: 10%;
+}
+
+.Tab ul {
+    font-size: 20px;
+    font-family: Calibri;
+    padding-left:50px;
 }
