@@ -1,6 +1,7 @@
 ﻿body {
     background-color: #adcbee;
 }
+
 .Base {
     background-color: #5966e0;
     float: left;
@@ -10,67 +11,77 @@
     height: 100vh;
 }
 
-.ProfilePic img{
-    padding:5px;
-    border-radius:50%;
-    border:solid;
-    border-color:white;
-    width:75%;
+.Base h2 {
+    color: maroon;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Bookman Old Style';
+}
+
+.ProfilePic img {
+    padding: 5px;
+    border-radius: 50%;
+    border: solid;
+    display: center;
+    border-color: white;
+    width: 75%;
 }
 
 .Links {
     display: flex;
-    flex-direction:column;
-    height:50%;
+    flex-direction: column;
+    height: 50%;
 }
 
-    .Links a {
-        border-top: solid;
-        border-color: #F4BA70;
-        color: maroon;
-        text-decoration: none;
-        text-align: center;
-        font-family: 'Bookman Old Style';
-        font-size: 20px;
-        height: 25%;
-        padding-top: 9%;
-    }
+.Links a {
+    border-top: solid;
+    border-color: #F4BA70;
+    color: maroon;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Bookman Old Style';
+    font-size: 20px;
+    height: 25%;
+    padding-top: 9%;
+}
 
 .CurrentTab {
-        background-color: white;
+    background-color: white;
 }
 
 
 .Tab {
-    width:75%;
-    float:right;
+    width: 75%;
+    float: right;
 }
-.Tab h1{
+
+.Tab h1 {
     font-family: 'Calibri';
-    text-align:center;
+    text-align: center;
 }
+
 .Tab p {
     font-size: 22px;
     font-family: Calibri;
-    padding-left:25px;
+    padding-left: 25px;
 }
 
-.Tab a{
-    padding-left:25px;
+.Tab a {
+    padding-left: 25px;
     font-family: Calibri;
     font-size: 25px;
     color: maroon;
-    font-style:italic;
+    font-style: italic;
 }
 
 
 p r {
-    float:right;
+    float: right;
     padding-right: 10%;
 }
 
 .Tab ul {
     font-size: 20px;
     font-family: Calibri;
-    padding-left:50px;
+    padding-left: 50px;
 }
