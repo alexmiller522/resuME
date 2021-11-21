@@ -1,0 +1,136 @@
+.floatRightClear{
+    float:right;
+    clear:right;
+    margin-left:20px
+}
+
+#mainimage {
+    width: 70%; 
+    height: auto;
+    float:right;
+    clear:right;
+    margin-left:20%;
+    margin-right:5.5%;
+    /*filter: grayscale(100%);*/
+    margin-top: -260px;
+}
+
+
+
+#subtitle{
+  font-size:3vw;
+  font-family: sans-serif;
+  font: Verdana;
+
+}
+
+#subtitle2{
+  font-size:3vw;
+  font-family: sans-serif;
+  font: Verdana;
+  margin-left: 20px;
+}
+
+p{
+  font-weight: 200;
+  font-size:2vw;
+  font-family: sans-serif;
+  font: Verdana;
+
+}
+
+body{
+  width: 100%;
+}
+
+.headings{
+  /*position: static;*/
+  margin-left: 20%;
+  font-family: sans-serif;
+  font: Verdana;
+}
+
+#icon{
+  position: static;
+  float: left;
+  width: 28%;
+  top: 0px;
+  right: 550px;
+  margin-right: -3.5%;
+
+}
+#education{
+  font-size:2vw;
+  font-family: sans-serif;
+  font: Verdana;
+  margin-top: -15px;
+  margin-left: 20px;
+}
+
+li{
+  font-weight: 200;
+  font-size:2vw;
+  font-family: sans-serif;
+  font: Verdana;
+}
+
+#joblist{
+  margin-top: -15px;
+}
+
+.row {
+  display: flex;
+  top: 80px;
+  right: 0;
+  margin-left: 25%;
+  max-width: 70%;
+  width: 100%;
+  height: 100%;
+}
+
+#subsection{
+  font-weight: 300;
+  font-size:2.5vw;
+  font-family: sans-serif;
+  font: Verdana;
+  margin-left: 20px;
+}
+
+
+.column1  {
+  position: relative;
+  max-width: 55%;
+  width: 100%;
+  margin-right: 30px;
+}
+
+.column2{
+  position: relative;
+  max-width: 55%;
+  width: 100%;
+
+}
+
+.vertical-menu {
+  margin-top: 100px;
+  width: 100px; /* Set a width if you like */
+}
+ 
+
+.vertical-menu a {
+  font-family: sans-serif;
+  font: Verdana;
+  /*background-color: white; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 14px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  margin-left: 50px;
+  min-width: 50px;
+  font-weight: 200;
+}
+
+.vertical-menu a:hover {
+  color: dimgrey;
+}
+
