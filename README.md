@@ -6,8 +6,8 @@
 * [Team Members](#team-members)
 
 # <a name="team-members"></a>Team Members
-* "Alexandra Miller" <amiller52200@gmail.com>
-* "Shruti Gupta" <guptas10@rpi.edu>
+* Alexandra Miller <amiller52200@gmail.com>
+* Shruti Gupta <guptas10@rpi.edu>
 
 
 
